@@ -1,1 +1,55 @@
+header {
+    background-color: blue;
+    height: 8vh;  
+    display: flex;
+    /* allineo in orizzontale */
+    justify-content: space-around; 
+    /* allineo in verticale */
+    align-items: center ;
+}
 
+button {
+    /* sfondo trasparente */
+    background-color: transparent;
+    /* colore del testo */
+    color: white;
+    /* bordo nullo */
+    border: none;
+    /* dimensione testo */
+    font-size: 1.2em; 
+    /* grassetto */
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+   height: 92vh;
+
+}
+
+/* metto h1 h3 in centro */
+h1, h3 {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+
+/* dimensione a info */
+.info {
+    height: 70vh;
+    background-color: beige;
+    display: flex;
+}
+
+.destra, .sinistra {
+    width: 50%;
+}
+
+.immagine {
+    /* dimensione che si adattta alla colonna */
+    width: 100%;
+}
